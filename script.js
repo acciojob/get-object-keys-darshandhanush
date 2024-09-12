@@ -1,10 +1,12 @@
 //your JS code here. If required.
 let student = {
-	name : dhanush
+	name : 'dhanush',
+	rollNo : 5863,
+	course : 'BE'
 }
 
 function getKeys() {
-	return ([...student])
+	return (object.keys(student))
 	
 }
 
