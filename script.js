@@ -4,8 +4,8 @@ let student = {
 
 }
 
-student.prototype.getKeys() = function(){
+student.getKeys() = function(){
 	return object.keys(this)
 }
 
-console.log(student.prototype.getKeys())
+console.log(student.getKeys())
