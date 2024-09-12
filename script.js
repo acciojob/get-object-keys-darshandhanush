@@ -7,3 +7,5 @@ function getKeys() {
 	console.log([...student])
 	
 }
+
+getKeys()
