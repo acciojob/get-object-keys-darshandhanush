@@ -4,7 +4,7 @@ let student = {
 }
 
 function getKeys() {
-	console.log([...student])
+	return ([...student])
 	
 }
 
