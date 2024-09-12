@@ -1,13 +1,11 @@
 //your JS code here. If required.
 let student = {
 	name : 'dhanush',
-	rollNo : 5863,
-	course : 'BE'
+
 }
 
-function getKeys() {
-	return (object.keys(student))
-	
+students.getKeys() = function(){
+	return object.keys(this)
 }
 
-getKeys()
+console.log(student.getKeys())
