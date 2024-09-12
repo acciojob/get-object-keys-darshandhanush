@@ -4,7 +4,7 @@ let student = {
 
 }
 
-students.prototype.getKeys() = function(){
+student.prototype.getKeys() = function(){
 	return object.keys(this)
 }
 
